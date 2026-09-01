@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natures Platter</title>
+    <!--Tailwind-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!--Font-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header class="bg-[#f1eee7]">
+        <nav class="grid grid-cols-3 gap-4 justify-center container mx-auto pt-4">
+            <img src="./assets/nav-logo.png" alt="" class="w-[120px] h-auto">
+        
+            <ul class="flex gap-4 items-center">
+            <li><a href="">Products</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact Us</a></li>
+            </ul>
+
+            <div class="flex gap-4 items-center">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                <button class="rounded border border-green-500 font-semibold px-3 py-1">Login</button>
+                <button class="rounded  bg-green-500 font-semibold px-3 py-1 text-white">Register</button>
+            </div>
+        </nav>   
+        
+        <section class="text-center py-[20px]">
+            <div class="max-w-[40%] mx-auto">
+            <h2 class="font-bold text-4xl mb-4">Freshness <span class="text-green-500">You Can <br>Count </span> On, Prices You'll Love!</h2>
+            <p> Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we've got you covered every day!</p>
+            </div>
+            <img src="./assets/Hero Section 1.png" alt="" class="mx-auto max-w-[850px] h-auto">
+        </section>
+    </header>
+ <section class="container mx-auto my-[80px]">
+
+    <h2 class="text-green-500 font-bold text-4xl mb-3 text-center">
+        Services
+    </h2>
+
+    <div class="flex flex-col md:flex-row gap-4 justify-center">
+
+        <!-- Service 1 -->
+        <div class="text-center bg-[#efebe3] rounded-md p-4 space-y-4">
+
+            <div class="bg-white rounded-full h-[120px] w-[120px] flex justify-center items-center p-4 mx-auto">
+                <img src="./assets/service.png" alt="">
+            </div>
+
+            <h2 class="font-semibold text-2xl">24/7 Services</h2>
+            <p>Always Here When You Need Us.</p>
+
+        </div>
+
+        <!-- Service 2 -->
+        <div class="text-center bg-[#efebe3] rounded-md p-4 space-y-4">
+
+            <div class="bg-white rounded-full h-[120px] w-[120px] flex justify-center items-center p-4 mx-auto">
+                <img src="./assets/delivery.png" alt="">
+            </div>
+
+            <h2 class="font-semibold text-2xl">Fast Delivery</h2>
+            <p>Quick, Easy & Reliable Delivery.</p>
+
+        </div>
+
+        <!-- Service 3 -->
+        <div class="text-center bg-[#efebe3] rounded-md p-4 space-y-4">
+
+            <div class="bg-white rounded-full h-[120px] w-[120px] flex justify-center items-center p-4 mx-auto">
+                <img src="./assets/products.png" alt="">
+            </div>
+
+            <h2 class="font-semibold text-2xl">Healthy Products</h2>
+            <p>Healthy Choices, Better Life.</p>
+        </div>
+    </div>
+</section>
+<section class="py-16 px-4 bg-[#efebe3]">
+        <div class="max-w-7xl mx-auto">
+            <!-- Section Title -->
+            <h2 class="text-3xl font-bold text-green-600 mb-12">Popular Products</h2>
+
+            <!-- Main Container -->
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+                <!-- Promotional Banner -->
+                <div class="lg:col-span-1 bg-gradient-to-b from-lime-400 to-green-500 rounded-2xl p-6 text-white flex flex-col relative overflow-hidden min-h-[280px]">
+                    <div class="relative z-10">
+                        <h3 class="text-3xl font-bold mb-3">30% off</h3>
+                        <p class="text-sm mb-5 leading-relaxed max-w-[200px]">
+                            Discover a world of treats, toys, and essentials handpicked for
+                        </p>
+                        <button class="bg-white text-gray-900 font-semibold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition text-sm">
+                            Buy Now
+                        </button>
+                    </div>
+                    <img src="./assets/Mask group.png" alt="Fresh vegetables" class="absolute bottom-0 right-0 w-[70%] object-contain" />
+                </div>
+
+                <!-- Products Grid -->
+                <div class="lg:col-span-3 grid grid-cols-2 sm:grid-cols-3 gap-4">
+                    <!-- Product Card 1 -->
+                    <div class="bg-white rounded-xl p-4 border border-gray-100 flex items-center gap-3">
+                        <img src="./assets/onion.png" alt="Onion 1KG" class="w-14 h-14 object-contain flex-shrink-0" />
+                        <div class="text-left">
+                            <div class="flex items-center gap-1 mb-1">
+                                <span class="text-yellow-400 text-xs">★</span>
+                                <span class="text-gray-700 text-xs">4.5</span>
+                            </div>
+                            <h4 class="font-semibold text-gray-900 text-xs leading-tight">Onion 1 KG</h4>
+                            <p class="text-gray-900 font-bold text-sm">$39.99</p>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2 -->
+                    <div class="bg-white rounded-xl p-4 border border-gray-100 flex items-center gap-3">
+                        <img src="./assets/tomato.png" alt="Tomato 500g" class="w-14 h-14 object-contain flex-shrink-0" />
+                        <div class="text-left">
+                            <div class="flex items-center gap-1 mb-1">
+                                <span class="text-yellow-400 text-xs">★</span>
+                                <span class="text-gray-700 text-xs">4.5</span>
+                            </div>
+                            <h4 class="font-semibold text-gray-900 text-xs leading-tight">Tomato 500g</h4>
+                            <p class="text-gray-900 font-bold text-sm">$33.99</p>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3 -->
+                    <div class="bg-white rounded-xl p-4 border border-gray-100 flex items-center gap-3">
+                        <img src="./assets/potato.png" alt="Potato 1KG" class="w-14 h-14 object-contain flex-shrink-0" />
+                        <div class="text-left">
+                            <div class="flex items-center gap-1 mb-1">
+                                <span class="text-yellow-400 text-xs">★</span>
+                                <span class="text-gray-700 text-xs">4.5</span>
+                            </div>
+                            <h4 class="font-semibold text-gray-900 text-xs leading-tight">Potato 1KG</h4>
+                            <p class="text-gray-900 font-bold text-sm">$39.99</p>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 4 -->
+                    <div class="bg-white rounded-xl p-4 border border-gray-100 flex items-center gap-3">
+                        <img src="./assets/tomato.png" alt="Tomato 500g" class="w-14 h-14 object-contain flex-shrink-0" />
+                        <div class="text-left">
+                            <div class="flex items-center gap-1 mb-1">
+                                <span class="text-yellow-400 text-xs">★</span>
+                                <span class="text-gray-700 text-xs">4.5</span>
+                            </div>
+                            <h4 class="font-semibold text-gray-900 text-xs leading-tight">Tomato 500g</h4>
+                            <p class="text-gray-900 font-bold text-sm">$33.99</p>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 5 -->
+                    <div class="bg-white rounded-xl p-4 border border-gray-100 flex items-center gap-3">
+                        <img src="./assets/onion.png" alt="Onion 1KG" class="w-14 h-14 object-contain flex-shrink-0" />
+                        <div class="text-left">
+                            <div class="flex items-center gap-1 mb-1">
+                                <span class="text-yellow-400 text-xs">★</span>
+                                <span class="text-gray-700 text-xs">4.5</span>
+                            </div>
+                            <h4 class="font-semibold text-gray-900 text-xs leading-tight">Onion 1 KG</h4>
+                            <p class="text-gray-900 font-bold text-sm">$39.99</p>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 6 -->
+                    <div class="bg-white rounded-xl p-4 border border-gray-100 flex items-center gap-3">
+                        <img src="./assets/potato.png" alt="Potato 1KG" class="w-14 h-14 object-contain flex-shrink-0" />
+                        <div class="text-left">
+                            <div class="flex items-center gap-1 mb-1">
+                                <span class="text-yellow-400 text-xs">★</span>
+                                <span class="text-gray-700 text-xs">4.5</span>
+                            </div>
+                            <h4 class="font-semibold text-gray-900 text-xs leading-tight">Potato 1KG</h4>
+                            <p class="text-gray-900 font-bold text-sm">$39.99</p>
+                        </div>
+                    </div>
+
+                     <!-- Product Card 7 -->
+                    <div class="bg-white rounded-xl p-4 border border-gray-100 flex items-center gap-3">
+                        <img src="./assets/onion.png" alt="Onion 1KG" class="w-14 h-14 object-contain flex-shrink-0" />
+                        <div class="text-left">
+                            <div class="flex items-center gap-1 mb-1">
+                                <span class="text-yellow-400 text-xs">★</span>
+                                <span class="text-gray-700 text-xs">4.5</span>
+                            </div>
+                            <h4 class="font-semibold text-gray-900 text-xs leading-tight">Onion 1 KG</h4>
+                            <p class="text-gray-900 font-bold text-sm">$39.99</p>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 8 -->
+                    <div class="bg-white rounded-xl p-4 border border-gray-100 flex items-center gap-3">
+                        <img src="./assets/potato.png" alt="Potato 1KG" class="w-14 h-14 object-contain flex-shrink-0" />
+                        <div class="text-left">
+                            <div class="flex items-center gap-1 mb-1">
+                                <span class="text-yellow-400 text-xs">★</span>
+                                <span class="text-gray-700 text-xs">4.5</span>
+                            </div>
+                            <h4 class="font-semibold text-gray-900 text-xs leading-tight">Potato 1KG</h4>
+                            <p class="text-gray-900 font-bold text-sm">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- Product Card 9 -->
+                    <div class="bg-white rounded-xl p-4 border border-gray-100 flex items-center gap-3">
+                        <img src="./assets/potato.png" alt="Potato 1KG" class="w-14 h-14 object-contain flex-shrink-0" />
+                        <div class="text-left">
+                            <div class="flex items-center gap-1 mb-1">
+                                <span class="text-yellow-400 text-xs">★</span>
+                                <span class="text-gray-700 text-xs">4.5</span>
+                            </div>
+                            <h4 class="font-semibold text-gray-900 text-xs leading-tight">Potato 1KG</h4>
+                            <p class="text-gray-900 font-bold text-sm">$39.99</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/QuantumRudra30/Natures-Platter.git
+git push -u origin main
